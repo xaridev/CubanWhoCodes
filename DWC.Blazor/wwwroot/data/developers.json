@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Jose Javier Columbie",
+		"initials": "JJC",
+		"image": "data/devs-pics/jose-columbie.jpg",
+		"summary": "NET Developer, DevOps Enthusiast, Xamarin Certified and Ballmer Peak advocate",
+		"skills": "C#,Xamarin,Azure,Blazor,XAF,XPO",
+		"linkedin": "https://www.linkedin.com/in/josejaviercolumbie/",
+		"github": "https://github.com/jjcolumb/",
+		"twitter": "https://twitter.com/jjcolumbie",
+		"webpage": "https://xafmarin.com/",
+		"youtube": "https://www.youtube.com/c/Josejaviercolumbie"
+	},
+	{
+		"name": "Joche Ojeda",
+		"initials": "JO",
+		"image": "data/devs-pics/joche-ojeda.jpeg",
+		"summary": "DevExpress MVP, Technology Lover",
+		"skills": "Software Architecture,C#, Developer Trainer",
+		"linkedin": "https://www.linkedin.com/in/joche-ojeda/",
+		"github": "https://github.com/egarim/",
+		"twitter": "https://twitter.com/jmojeda",
+		"webpage": "https://jocheojeda.com/",
+		"youtube": "https://www.youtube.com/channel/UC0fujupkyItCvJl5SeLd08Q"
+	}
+]
