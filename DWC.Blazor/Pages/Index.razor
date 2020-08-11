@@ -1,13 +1,18 @@
 ﻿@page "/"
 @inject HttpClient Http
+
+<div class="col-sm-6 row">
+    <SearchComponent OnSearchChanged="SearchAction"/>
+</div>
+
 <div class="row">
-    @if (developers == null)
+    @if (DeveloperList == null)
     {
         <p><em>Loading devs info...</em></p>
     }
     else
     {
-        @foreach (var developer in developers)
+        @foreach (var developer in DeveloperList)
         {
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <CardComponent
@@ -31,28 +36,6 @@
 </div>
 
 @code {
-    Developer[] developers;
 
-    protected override async Task OnInitializedAsync()
-    {
-        developers = await Http.GetJsonAsync<Developer[]>("data/developers.json");
-        developers = developers.Shuffle().ToArray();
-    }
 
-    public class Developer
-    {
-        public string Name { get; set; }
-        public string Initials { get; set; }
-        public string Image { get; set; }
-        public string Summary { get; set; }
-        public string Skills { get; set; }
-        public string Webpage { get; set; }
-        public string LinkedIn { get; set; }
-        public string Twitter { get; set; }
-        public string Github { get; set; }
-        public string Telegram { get; set; }
-        public string StackOverflow { get; set; }
-        public string Medium { get; set; }
-        public string YouTube { get; set; }
-    }
 }
