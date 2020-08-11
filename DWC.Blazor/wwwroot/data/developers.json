@@ -23,4 +23,16 @@
 		"webpage": "https://jocheojeda.com/",
 		"youtube": "https://www.youtube.com/channel/UC0fujupkyItCvJl5SeLd08Q"
 	}
+	{
+		"name": "Oniel Mato",
+		"initials": "OM",
+		"image": "data/devs-pics/oniel.jpeg",
+		"summary": "NET Developer",
+		"skills": "C#,XAF,XPO,Xamarin Forms,Php",
+		"linkedin": "https://www.linkedin.com/in/oniel-mato-ruiz/",
+		"github": "https://github.com/onielmato/",
+		"twitter": "https://twitter.com/mato_oniel",
+		"webpage": "",
+		"youtube": ""
+	}
 ]
