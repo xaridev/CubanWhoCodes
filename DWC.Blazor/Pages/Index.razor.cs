@@ -1,5 +1,4 @@
-﻿using Entities.Models;
-using Entities.RequestFeatures;
+﻿using DWC.Blazor.Models;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
@@ -36,7 +35,7 @@ namespace DWC.Blazor.Pages
         public async Task<PagingResponse<Developer>> GetDevelopersSearch(SearchParameter searchParameters)
         {
             var developers = await Http.GetJsonAsync<List<Developer>>("data/developers.json");
-            var pagingResponse = new Entities.Models.PagingResponse<Developer>
+            var pagingResponse = new PagingResponse<Developer>
             {
                 Developers = developers.Where(dev => dev.Name.ToLower().Contains(searchParameters.SearchTerm.ToLower()) || dev.Skills.ToLower().Contains(searchParameters.SearchTerm.ToLower())).ToList()
             };

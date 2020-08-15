@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.RequestFeatures
+namespace DWC.Blazor.Models
 {
     public class SearchParameter
     {

@@ -1,5 +1,4 @@
-﻿using Entities.Models;
-using Entities.RequestFeatures;
+﻿using DWC.Blazor.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

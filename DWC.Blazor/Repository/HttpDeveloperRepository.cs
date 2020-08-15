@@ -1,5 +1,4 @@
-﻿using Entities.Models;
-using Entities.RequestFeatures;
+﻿using DWC.Blazor.Models;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Entities.Models
+namespace DWC.Blazor.Models
 {
     public class PagingResponse<T> where T : class
     {

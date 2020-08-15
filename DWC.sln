@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DWC.Blazor", "DWC.Blazor\DW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DWC.Blazor.Tests", "DWC.Blazor.Tests\DWC.Blazor.Tests.csproj", "{23688168-8922-4060-BC0C-4721C9DF4646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{5BA6FF96-5788-4846-9E7C-ECE758DE0B84}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{23688168-8922-4060-BC0C-4721C9DF4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23688168-8922-4060-BC0C-4721C9DF4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23688168-8922-4060-BC0C-4721C9DF4646}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BA6FF96-5788-4846-9E7C-ECE758DE0B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BA6FF96-5788-4846-9E7C-ECE758DE0B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BA6FF96-5788-4846-9E7C-ECE758DE0B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BA6FF96-5788-4846-9E7C-ECE758DE0B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
